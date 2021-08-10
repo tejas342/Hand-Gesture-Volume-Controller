@@ -1,5 +1,7 @@
 # Hand Gesture Volume Controller
-Using this you can control your PC/Laptop volume by Hand Gestures (pinch-in, pinch-out) created with Open-CV (Python).
+![image](https://user-images.githubusercontent.com/86593289/128878239-67a81275-d3b9-44cd-8ccf-64d75eb5fa89.png)
+
+Using this you can control your PC/Laptop volume by Hand Gestures (pinch-in, pinch-out).
 # Code
 Firstly I have created a Module "HandTrackingModule.py", this file contains the code which detects our hand, in this file I have created functions for specific tasks in a "class handDetector()". 
 Short description of functions are - 
@@ -8,4 +10,7 @@ Short description of functions are -
 * fingersUp() - This function check wheather your particular finger is up or not and it return a list containing values 0 (if finger is down) ans 1 (if finger is up). i.e. \[0,0,0,0,0] if all the 5 fingers are down and \[1,1,1,1,1] if all the fingers are up.
 
 
-Then another file is "GestureVolumeController", this file contains the code which calculate distance between thumb and first-finger and by pinching-in(decrease distance) and pinching-out(increase distance) you can decrease and increase volume of your PC/Laptop. 
+Then another file is "GestureVolumeController", this file uses that HandTrackingModule and contains the code which calculate distance between thumb and first-finger and by pinching-in(decrease distance) and pinching-out(increase distance) you can decrease and increase volume of your PC/Laptop. 
+
+
+This project is created in Python-3 language using OpenCV, Mediapipe and Pycaw libraries.
