@@ -16,9 +16,7 @@ Then another file is "GestureVolumeController", this file uses that HandTracking
 This project is created in Python-3 language using OpenCV, Mediapipe and Pycaw libraries.
 
 # Installation
-To run this file you need to install some PYTHON modules:-
-
-Open Your CMD and type following commands-
+To run this file you need to install some PYTHON modules, open your CMD and type following commands-
 
 * pip install mediapipe
 * pip install opencv-python
